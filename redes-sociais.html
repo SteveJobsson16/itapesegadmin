@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,10 +42,18 @@
                             </ul>
                         </li>
                     </ul>
-                    <div class="page-title"><span>Categoria</span></div>
+                    <div class="page-title"><span>Informações</span></div>
                     <ul class="nav navbar-nav navbar-right be-icons-nav">
-                        <li class="dropdown"><a href="#" role="button" aria-expanded="false" class="be-toggle-right-sidebar"><span class="icon mdi mdi-settings"></span></a></li>
-                        <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><span class="icon mdi mdi-notifications"></span><span class="indicator"></span></a>
+                        <li class="dropdown">
+                            <a href="#" role="button" aria-expanded="false" class="be-toggle-right-sidebar">
+                                <span class="icon mdi mdi-settings"></span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle">
+                                <span class="icon mdi mdi-notifications"></span>
+                                <span class="indicator"></span>
+                            </a>
                             <ul class="dropdown-menu be-notifications">
                                 <li>
                                     <div class="title">Notifications<span class="badge">3</span></div>
@@ -267,11 +276,11 @@
         </div>
         <div class="be-content">
             <div class="page-head">
-                <h2 class="page-head-title">Nova Categoria</h2>
+                <h2 class="page-head-title">Redes Sociais</h2>
                 <ol class="breadcrumb page-head-nav">
                     <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li class="active">Cadastrar Nova</li>
+                    <li><a href="#">Informações</a></li>
+                    <li class="active">Redes Sociais</li>
                 </ol>
             </div>
             <div class="main-content container-fluid">
@@ -279,30 +288,51 @@
                     <div class="col-md-12">
                         <div class="panel panel-default panel-border-color panel-border-color-primary">
                             <div class="panel-heading panel-heading-divider">
-                                Cadastrar Nova Categoria
-                                <span class="panel-subtitle">Cadastrar Nova Categoria para aparecer no catalago</span>
+                                Redes Sociais
+                                <span class="panel-subtitle">Cadastrar redes sociais do site </span>
                             </div>
                             <div class="panel-body">
                                 <form action="#" style="border-radius: 0px;" class="form-horizontal group-border-dashed">
+
                                     <div class="form-group">
-                                        <label class="col-sm-3 control-label">Nome</label>
+                                        <label class="col-sm-3 control-label">Facebook</label>
                                         <div class="col-sm-7">
-                                            <input type="text" placeholder="Nome Produto" class="form-control">
+                                            <input type="text" placeholder="Link" class="form-control">
                                         </div>
                                     </div>
+
                                     <div class="form-group">
-                                        <label class="col-sm-3 control-label">Status da Categoria</label>
+                                        <label class="col-sm-3 control-label">WhatsApp</label>
                                         <div class="col-sm-7">
-                                            <div class="be-radio be-radio-color has-success inline">
-                                                <input type="radio" checked="" name="rad4" id="rad34">
-                                                <label for="rad34">Online</label>
-                                            </div>
-                                            <div class="be-radio be-radio-color has-danger inline">
-                                                <input type="radio" name="rad4" id="rad36">
-                                                <label for="rad36">Offline</label>
-                                            </div>
+                                            <input type="text" placeholder="Link " class="form-control">
                                         </div>
-                                    </div> <br><br><br>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">Instagran</label>
+                                        <div class="col-sm-7">
+                                            <input type="text" placeholder="Link " class="form-control">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">Skype</label>
+                                        <div class="col-sm-7">
+                                            <input type="text" placeholder="Link " class="form-control">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">Messenger</label>
+                                        <div class="col-sm-7">
+                                            <input type="text" placeholder="Link " class="form-control">
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <br><br><br>
                                     <div class="form-group">
                                         <label class="col-sm-3 control-label"></label>
                                         <div class="col-sm-7">
@@ -549,5 +579,8 @@
             App.init();
             App.formElements();
         });
+
     </script>
-</body></html>
+</body>
+
+</html>
